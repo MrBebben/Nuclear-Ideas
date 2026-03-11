@@ -1,0 +1,18 @@
+# Miljövariabler — DELA ALDRIG dessa
+.env
+
+# Node-moduler — installeras via npm install
+node_modules/
+
+# Datafiler (bokningar, kontaktmeddelanden)
+# OBS: Byt mot en riktig databas i produktion
+data/bookings.json
+data/contacts.json
+
+# Loggar
+*.log
+npm-debug.log*
+
+# OS-filer
+.DS_Store
+Thumbs.db
